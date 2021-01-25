@@ -1,5 +1,5 @@
 # First-Microservices-App
-A small application where user can post and comment on unpersisted posts.
+A small application where users can post and comment on unpersisted posts.
 
 ### Created using:
 - React
