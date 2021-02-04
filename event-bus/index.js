@@ -9,8 +9,11 @@ app.post("/events", (req, res) => {
   const event = req.body;
 
   axios.post("http://localhost:4000/events", event);
+  console.log("success 1");
   axios.post("http://localhost:4001/events", event);
+  console.log("success 2");
   axios.post("http://localhost:4002/events", event);
+  console.log("success 3");
 
   res.send({ status: "Event sent" });
 });
