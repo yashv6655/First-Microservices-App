@@ -7,5 +7,3 @@ A small application where users can post and comment on unpersisted posts.
 ### Usage
 - Run `npm install` in each folder.
 - Run `npm start` to start the development server after the installation is complete.
-
-Test edit
